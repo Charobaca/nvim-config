@@ -29,9 +29,9 @@ call plug#begin('~/.vim/plugged')
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-nvim-lsp'
+"Plug 'neovim/nvim-lspconfig'
+"Plug 'hrsh7th/nvim-cmp'
+"Plug 'hrsh7th/cmp-nvim-lsp'
 
 " color schemas
 Plug 'morhetz/gruvbox'  " colorscheme gruvbox
@@ -41,12 +41,14 @@ Plug 'ayu-theme/ayu-vim'
 
 Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 
-Plug 'Pocco81/AutoSave.nvim'
-Plug 'justinmk/vim-sneak'
+"Plug 'Pocco81/AutoSave.nvim'
+"Plug 'justinmk/vim-sneak'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdtree'
 
-Plug 'bmatcuk/stylelint-lsp'
+Plug 'chrisbra/vim-commentary'
+
+"Plug 'bmatcuk/stylelint-lsp'
 
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
