@@ -86,8 +86,15 @@ let g:sneak#label = 1
 
 colorscheme gruvbox
 
+
 " turn off search highlight
 noremap ,<space> :nohlsearch<CR>
+
+
+let g:black#settings = { 'fast': 1, 'line_length': 100 }
+
+nnoremap <buffer><silent> <c-q> <cmd>call Black()<cr>
+inoremap <buffer><silent> <c-q> <cmd>call Black()<cr>
 
 
 lua << EOF
