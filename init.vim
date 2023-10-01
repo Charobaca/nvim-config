@@ -140,9 +140,10 @@ require'lspconfig'.stylelint_lsp.setup{
 vim.opt.list = true
 vim.opt.listchars:append ""
 
-require("indent_blankline").setup {
-show_end_of_line = true,
-}
+
+require("ibl").setup({
+    show_end_of_line = true,
+})
 
 
 EOF
